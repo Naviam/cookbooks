@@ -10,6 +10,6 @@
 include_recipe "nodejs"
 
 execute "npm-install-bower" do
-    command "npm install -g bower"
+    command "sudo npm install -g bower"
     action :run
 end
