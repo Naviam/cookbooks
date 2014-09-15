@@ -1,5 +1,5 @@
 execute "install-bower-packages" do
-    cd ""
+    cd "/srv/www/stweb/current"
     command "bower install"
     action :run
 end
